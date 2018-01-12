@@ -11,6 +11,7 @@ class RetiredForagerBee extends ForagerBee {
     // a treasureChest property inherited from ForagerBee that is set to an empty array []
   }
   forage () {
+    super.forage()
     return 'I am too old, let me play cards instead';
   }
   gamble (treasure) {
